@@ -1,0 +1,278 @@
+---
+layout: default
+---
+
+<div class="page-home">
+  <section class="container sec-leader">
+    <div class="row mt-3 sec-leader-pt1">
+      <div class="col-lg">
+        <h1>
+          Use cocotb to test and verify chip designs in Python. Productive, and
+          with a smile.
+        </h1>
+        <div class="border-start border-5 border-secondary my-3 ps-3 fs-4">
+          cocotb is an open source coroutine-based cosimulation testbench
+          environment for verifying VHDL and SystemVerilog RTL using Python.
+        </div>
+        <a href="https://docs.cocotb.org/en/stable/quickstart.html" class="btn btn-primary btn-lg">
+          Get started
+          <img class="ps-2" src="/assets/img/btn-arrow.png" />
+        </a>
+      </div>
+      <div class="col-lg-5 d-none d-md-block">
+        <img src="/assets/img/banner-img.png" class="img-fluid" />
+      </div>
+    </div>
+
+    <div class="row sec-leader-pt2 mt-5 g-0 bg-light border-start border-5 border-primary">
+      <div class="col-md-auto align-self-center d-none d-md-block p-3 p-md-0">
+        <img src="/assets/img/python-in-circle.svg" class="img-fluid" />
+      </div>
+      <div class="col align-self-center p-3 p-md-0">
+        cocotb lets you verify chips like software:<br />
+        productive, simulator-agnostic, in Python.
+      </div>
+    </div>
+  </section>
+
+  <section class="container mt-5 sec-how-cocotb-works">
+    <h1 class="text-center">How cocotb works</h1>
+    <div class="mt-3 row">
+      <div class="col-md">
+        <img class="mx-auto d-block mb-3" src="/assets/img/process-icon-1.svg" />
+        <h2 class="fs-4 text-center">Bring your design under test</h2>
+        <p>
+          cocotb works with any hardware design that your
+          preferred simulator (and cocotb
+          <a href="https://docs.cocotb.org/en/stable/simulator_support.html">supports all major simulators</a>)
+          can simulate &ndash; be it in (System)Verilog, VHDL, a mixed language,
+          or even a mixed-signal design!
+        </p>
+      </div>
+      <div class="col-md">
+        <img class="mx-auto d-block mb-3" src="/assets/img/process-icon-2.svg" alt="icon" />
+        <h2 class="fs-4 text-center">Write a testbench in Python</h2>
+        <p>
+          With cocotb, you write testbenches and verification code in Python.
+          In addition to all the goodies of the Python programming language and
+          its ecosystem, cocotb provides
+          <a href="https://docs.cocotb.org/en/stable/writing_testbenches.html">
+            a lean framework to efficiently write verification code
+          </a>.
+        </p>
+      </div>
+      <div class="col-md">
+        <img class="mx-auto d-block mb-3" src="/assets/img/process-icon-3.svg" alt="icon" />
+        <h2 class="fs-4 text-center">You are ready to run your test!</h2>
+        <p>
+          Running a test has never been easier thanks to cocotb's built-in test
+          runner with CI integration. Alternatively, you can integrate cocotb
+          easily with your existing build and reporting system.
+        </p>
+      </div>
+    </div>
+
+    <script id="asciicast-317220" src="https://asciinema.org/a/317220.js" async></script>
+
+    <div class="text-center">
+      <a href="https://docs.cocotb.org/en/stable/quickstart.html" class="btn btn-primary btn-lg">
+        Get started
+        <img class="ps-2" src="/assets/img/btn-arrow.png" />
+      </a>
+    </div>
+  </section>
+
+  <section class="container mt-5 sec-benefits">
+    <h1 class="text-center">Key benefits</h1>
+    <p>
+      cocotb is all about verification productivity. Verification is software, and
+      by writing verification code in Python, verification engineers have access
+      to all the goodness that made software development productive and enjoyable.
+      It allows developers to focus on the verification task itself, and stop
+      fighting with language limitations.
+    </p>
+
+    <div class="row g-3 g-lg-5">
+      <div class="col-md-4">
+        <div class="d-flex flex-column border bg-light p-3 h-100">
+          <img class="mx-auto d-block mb-3" src="/assets/img/benefits-1.svg" alt="icon" />
+          <h2 class="fs-4 text-center">Works with what you have</h2>
+          <p>
+            cocotb
+            <a href="https://docs.cocotb.org/en/stable/simulator_support.html">works with all commonly used RTL simulators</a>:
+            VCS, ModelSim and Questa, Xcelium, Riviera-PRO and Active-HDL,
+            GHDL, CVC, Verilator and Icarus Verilog on Windows, Linux, and macOS.
+            If your simulator of choice can simulate your RTL design, cocotb can
+            verify it! cocotb is just a library, integrate it with your existing
+            project automation.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="d-flex flex-column border bg-light p-3 h-100">
+          <img class="mx-auto d-block mb-3" src="/assets/img/benefits-2.svg" alt="icon" />
+          <h2 class="fs-4 text-center">Benefit from the ecosystem</h2>
+          <p>
+            Verification is all about productivity. With cocotb, your testbench
+            can make use of the whole Python ecosystem:
+            <a href="https://pypi.org/">over 350,000 extension packages</a>,
+            <a href="https://stackoverflow.com/questions/tagged/python">
+              answers to over 1.5 million questions on StackOverflow
+            </a>,
+            and a huge pool of books, blog posts, tutorials, and much more.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="d-flex flex-column border bg-light p-3 h-100">
+          <img class="mx-auto d-block mb-3" src="/assets/img/benefits-5.svg" alt="icon" />
+          <h2 class="fs-4 text-center">cocotb is not an island</h2>
+          <p>
+            With cocotb, interfacing with existing infrastructure is easy.
+            Do you want to talk to a golden model in your testbench? Or to real
+            hardware, e.g. an FPGA or a logic analyzer? In most cases, that's
+            just a matter of looking for existing Python bindings&mdash;like
+            <a href="https://github.com/cocotb/cocotb/wiki/Code-Examples#using-a-matlabsimulink-reference-model">in this example</a>,
+            where a handful lines of code are sufficient to
+            <a href="https://uk.mathworks.com/products/matlab/matlab-and-python.html">talk to MatLab</a>!
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="d-flex flex-column border bg-light p-3 h-100">
+          <img class="mx-auto d-block mb-3" src="/assets/img/benefits-1.svg" alt="icon" />
+          <h2 class="fs-4 text-center">CI-capable test runner included</h2>
+          <p>
+            Are you tired of writing custom test runner tooling? With cocotb,
+            tests are automatically discovered and run. No more need for
+            custom runners.
+            The cocotb test runner by default produces regression results in
+            the industry-standard Junit XML format, which is understood by
+            most CI solutions, such as Jenkins, or Azure Pipelines.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="d-flex flex-column border bg-light p-3 h-100">
+          <img class="mx-auto d-block mb-3" src="/assets/img/benefits-3.svg" alt="icon" />
+          <h2 class="fs-4 text-center">Python is easy to learn (chances are you know it already)</h2>
+          <p>
+            Python is the
+            <a href="https://spectrum.ieee.org/static/interactive-the-top-programming-languages-2020">most popular programming language on the planet</a>,
+            giving you a massive head start. It is
+            <a href="https://www.zdnet.com/article/programming-languages-python-developers-now-outnumber-java-ones">used by more than 8 million developers around the world</a>.
+            With cocotb, you can grow as you go. You only need to learn a handful
+            of conventions and you're ready to go. There is no mandatory
+            methodology or class structure to get started!
+            cocotbs <a href="https://docs.cocotb.org">extensive documentation</a>
+            and friendly user community are ready to help.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-5 p-5 sec-about-us">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="/assets/img/about-img.png" />
+        </div>
+        <div class="col-lg-6">
+          <h1>Who's behind cocotb?</h1>
+
+          <p>
+            cocotb is a true and independent open source project, developed by a
+            loosely connected community of like-minded engineers which we
+            collectively call the <em>cocotb contributors</em>. Everybody can be
+            a cocotb contributor: we value providing support for other users, bug
+            reports, feature requests, and improvements to our documentation just
+            as much as we value code changes or help with releasing and
+            maintaining cocotb. All development and decision making happens
+            <a href="https://github.com/cocotb/cocotb">in the open on GitHub</a>.
+          </p>
+          <p>
+            The cocotb source code licensing provides a level playing field for
+            all. cocotb is licensed under a permissive BSD license with no
+            Contributor License Agreement (CLA) or other copyright assignment
+            mechanisms in place: every individual and every company can use and
+            contribute to cocotb under the same terms.
+          </p>
+          <p>
+            The development of cocotb is coordinated by a group of experienced
+            volunteers, the
+            <a href="https://github.com/cocotb/cocotb/blob/master/CONTRIBUTING.md#maintainers"><em>cocotb maintainers</em></a>.
+            Think of maintainers as the caretakers of the cocotb project: they
+            create releases, review and approve code changes in pull requests,
+            and often also do a fair amount of development.
+          </p>
+          <p>
+            cocotb is a project of the
+            <a href="https://www.fossi-foundation.org">FOSSi Foundation</a>, a
+            UK-based not-for-profit, which provides legal, administrative, and
+            financial support, but does not influence the technical direction
+            the cocotb project is taking.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container mt-5">
+    <h1 class="text-center fs-2">cocotb is free. And priceless.</h1>
+    <p>
+      cocotb is open source under the permissive BSD license. Anyone can freely
+      use, modify, and distribute it, for any purpose, including commercial and
+      closed-source developments.
+    </p>
+    <p>
+      But of course cocotb is not free to develop.
+      We are grateful for our sponsors, who help us with e.g. with licenses for
+      proprietary EDA tools for integration testing.
+    </p>
+    <p>
+      <strong>Are you or your company using cocotb?</strong>
+      Please consider becoming a sponsor to ensure that cocotb is sustainably
+      developed and maintained. All sponsorships are handled by the <a href="https://www.fossi-foundation.org">FOSSi
+        Foundation</a>, a UK-based not-for-profit organization.
+      Please talk to <a href="https://www.fossi-foundation.org/organization">Philipp Wagner</a>
+      (<a href="mailto:philipp@fossi-foundation.org">email</a>) to discuss how
+      your support can help make cocotb better.
+    </p>
+
+    <div class="row g-5 mt-3">
+      <div class="col-md-6">
+        <div class="row align-items-center border border-2 shadow border-gray-light rounded p-3 g-3">
+          <div class="col-md-4">
+            <img class="img-fluid" src="/assets/img/sponsor-logo-fossi-foundation.svg" />
+          </div>
+          <div class="col">
+            <h2 class="fs-4">FOSSi Foundation</h2>
+            <p>
+              The FOSSi Foundation provides financial, technical,
+              administrative, and legal support for the cocotb project.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="mt-5 p-5 text-white sec-support" id="sec-support">
+    <div class="container">
+      <h1 class="text-secondary">Questions? Documentation? Bugs?</h1>
+
+      <p>
+        cocotb comes with
+        <a href="https://docs.cocotb.org" class="text-reset">extensive documentation at docs.cocotb.org</a>.
+      </p>
+      <p>
+        Do you have questions or found a bug? A friendly user community is ready
+        to help out! Please file an issue in our
+        <a href="https://github.com/cocotb/cocotb" class="text-reset">GitHub issue tracker</a>
+        or jump on to the
+        <a href="https://gitter.im/cocotb/Lobby" class="text-reset">Gitter chat</a>.
+      </p>
+    </div>
+  </section>
+</div>

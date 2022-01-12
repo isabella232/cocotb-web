@@ -1,0 +1,61 @@
+.page-home {
+  .sec-leader h1 {
+    font-size: $h1-font-size * 1.25;
+    color: $primary;
+  }
+  @include media-breakpoint-down(lg) {
+    .sec-leader h1 {
+      font-size: $h1-font-size;
+    }
+  }
+
+  .sec-leader-pt2 {
+    font-size: $h5-font-size;
+  }
+  @include media-breakpoint-up(md) {
+    .sec-leader-pt2 {
+      font-size: $h4-font-size;
+    }
+  }
+  @include media-breakpoint-up(xl) {
+    .sec-leader-pt2 {
+      font-size: $h2-font-size;
+    }
+  }
+
+  @include media-breakpoint-down(lg) {
+    .sec-leader-pt2 h1 {
+      font-size: $h2-font-size;
+    }
+  }
+
+  .a-benefits-read-more {
+    font-size: $font-size-lg;
+    font-weight: $font-weight-bold;
+    color: $primary;
+    border-bottom: 4px solid #b9cdde;
+    text-decoration: none;
+  }
+
+  .a-benefits-read-more:hover {
+    border-bottom-color: $secondary;
+  }
+
+  .sec-about-us {
+    background-color: #e7f6f1;
+  }
+
+  .sec-support {
+    background: url('/assets/img/inner-banner.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  @include media-breakpoint-up(lg) {
+    .sec-how-cocotb-works div.row {
+      background-image: url('/assets/img/process-arrows.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}
